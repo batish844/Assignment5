@@ -18,7 +18,7 @@ class StudentSeeder extends Seeder
         for ($i = 0; $i < 10; $i++) {
             Student::create([
                 'name' => $faker->name,
-                'age' => $faker->numberBetween(12, 20)
+                'age' => $faker->numberBetween(12, 20)  
             ]);
         }
     }
